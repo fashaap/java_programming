@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//latihan
 
 public class TotalHurufVokal {
     static final int nMax = 1000;
