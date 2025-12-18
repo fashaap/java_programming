@@ -18,14 +18,14 @@ class Main {
 
     public static void konfersiNIlai(String[][] nilai, int n){
         for(int i = 0; i < n; i++){
-            int maxKonfersi = Integer.parseInt(nilai[i][1]);
-            if(maxKonfersi >= 85){
+            int Konfersi = Integer.parseInt(nilai[i][1]);
+            if(Konfersi >= 85 && maxKonfersi <= 100){
                 nilai[i][1] = "A";
-            }else if(maxKonfersi >= 75){
+            }else if(konfersi >= 75){
                 nilai[i][1] = "B";
-            }else if(maxKonfersi >= 65){
+            }else if(Konfersi >= 65){
                 nilai[i][1] = "AB";
-            }else if(maxKonfersi >= 55){
+            }else if(Konfersi >= 55){
                 nilai[i][1] = "C";
             }else{
                 nilai[i][1] = "E";
